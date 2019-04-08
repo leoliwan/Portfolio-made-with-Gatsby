@@ -9,7 +9,7 @@ const Hero = () => (
             <Container>
                 <Row>
                     <Col lg="8" className="mx-auto intro text-center">
-                       <h1 className="display-6">I <span className="solution">design and develop</span> websites that stand out</h1>
+                       <h1 className="display-6">I <span className="solution">design and develops</span> websites that stand out</h1>
                         <Row className="mx-auto text-white tagline">
                             <Col md="4">
                             <p>Responsive</p>
