@@ -44,11 +44,12 @@ const Contact = () => (
                                     <Form.Control as="textarea" name="textarea" id="textarea" rows="3" />
                                 </Form.Group>
                                 <Form.Group>
-                                    <div data-netlify-recaptcha></div>
+                                    <div data-netlify-recaptcha="true"></div>
                                 </Form.Group>
                                 <Button variant="info" type="submit">Submit</Button>
                             </Form>
                         </Card.Body>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScF8_Vl8_bDNxCeiIYAMHdhERTcgM4F2eNjscg8733NS9nqjQ/viewform?embedded=true" width="640" height="1075" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
                     </Card>
                         
                     </Col>
