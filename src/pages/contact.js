@@ -24,7 +24,7 @@ const Contact = () => (
                     <Col md="8" lg="8" className="mx-auto">
                     <Card>
                         <Card.Body>
-                            <Form action="POST" data-netlify="true">
+                            <Form method="POST" data-netlify-recaptcha="true" data-netlify="true">
                                 <Row>
                                     <Col md="6" lg="6">
                                     <Form.Group>
