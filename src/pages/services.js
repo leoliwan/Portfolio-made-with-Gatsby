@@ -39,7 +39,7 @@ class Services extends Component {
               <Col md="4" lg="4">
                 <img src={ecom} className="img-fluid" alt="ecom" />
                 <Card className="ecom">
-                  <Card.Header className="ecom-head e-com" onClick={this.handleEcomDisplay}>Click For More Infor <FaAngleDown /></Card.Header>
+                  <Card.Header className="ecom-head e-com" onClick={this.handleEcomDisplay}>Click For More Details <FaAngleDown /></Card.Header>
                     <Card.Body style={{display: `${ecomdisplay}`}}>
                       <ListGroup>
                         <ListGroup.Item><FaCheck className="ecom-icon"/> Shopify eCommerce</ListGroup.Item>
@@ -60,7 +60,7 @@ class Services extends Component {
               <Col md="4" lg="4">
                 <img src={ebook} className="img-fluid" alt="ebook" />
                 <Card className="ebook">
-                  <Card.Header className="ecom-head e-book" onClick={this.handleEbookDisplay}>Click For More Infor <FaAngleDown /></Card.Header>
+                  <Card.Header className="ecom-head e-book" onClick={this.handleEbookDisplay}>Click For More Details <FaAngleDown /></Card.Header>
                     <Card.Body style={{display: `${ebookdisplay}`}}>
                       <ListGroup>
                         <ListGroup.Item><FaCheck className="ebook-icon"/> Ebook Sales Page</ListGroup.Item>
@@ -78,7 +78,7 @@ class Services extends Component {
               <Col md="4" lg="4">
                 <img src={wordpress} className="img-fluid" alt="wordpress" />
                 <Card className="wordpress">
-                  <Card.Header className="wordpress-head w-ordpress" onClick={this.handleWordPressDisplay}>Click For More Infor <FaAngleDown /></Card.Header>
+                  <Card.Header className="wordpress-head w-ordpress" onClick={this.handleWordPressDisplay}>Click For More Details <FaAngleDown /></Card.Header>
                     <Card.Body style={{display: `${wordpressdisplay}`}}>
                       <ListGroup>
                         <ListGroup.Item><FaCheck className="wordpress-icon"/> Any WordPress Website</ListGroup.Item>
