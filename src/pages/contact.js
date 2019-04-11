@@ -23,8 +23,8 @@ const Contact = () => (
                     <Card>
                         <Card.Body>
                             <form
-                                name="message"
-                                method="POST"
+                                name="contact"
+                                method="post"
                                 data-netlify="true"
                                 data-netlify-honeypot="bot-field"
                             >
@@ -40,6 +40,10 @@ const Contact = () => (
                             </Row>
                             <label>Message</label>
                             <textarea className="form-control mb-3" row="3" name="message"></textarea>
+                            <p className="hidden">
+                                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                            </p>
+                            <input type="hidden" name="form-contact" value="contact"></input>  
                             <button type="submit" className="btn btn-dark">Send Message</button>
                             </form>        
                         </Card.Body>
