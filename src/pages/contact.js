@@ -52,7 +52,7 @@ const Contact = () => (
                             </Row>
                             <label>Message</label>
                             <textarea className="form-control mb-3" row="3" name="message"></textarea>
-                            <button className="btn btn-dark" type="submit">Send Message</button>
+                            <button className="btn btn-dark">Send Message</button>
                             </form>        
                         </Card.Body>
                     </Card>    
