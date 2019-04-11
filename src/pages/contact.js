@@ -40,10 +40,10 @@ const Contact = () => (
                             </Row>
                             <label>Message</label>
                             <textarea className="form-control mb-3" row="3" name="message"></textarea>
-                            <p className="hidden">
+                            <p className="d-none">
                                 <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                             </p>
-                            <input type="hidden" name="form-contact" value="contact"></input>  
+                             <input type="hidden" name="form-name" value="contact" />  
                             <button type="submit" className="btn btn-dark">Send Message</button>
                             </form>        
                         </Card.Body>
