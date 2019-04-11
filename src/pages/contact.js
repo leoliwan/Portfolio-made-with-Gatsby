@@ -1,11 +1,9 @@
 import React from 'react'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { Container, Col, Row, Form, Card, Button } from 'react-bootstrap'
+import { Container, Col, Row Card } from 'react-bootstrap'
 
 const Contact = () => (
     <Layout>
-        <SEO title="Contact" />
             <Container className="py-5 contact-me">
                 <div className="text-center">
                     <h2>Contact Me</h2>
@@ -40,19 +38,9 @@ const Contact = () => (
                                     <input className="form-control" name="lastname"></input>
                                 </Col>
                             </Row>
-                            <Row className="mb-3">
-                                <Col md="6" lg="6">
-                                    <label>Email</label>
-                                    <input className="form-control" name="email"></input>
-                                </Col>
-                                <Col md="6" lg="6">
-                                    <label>Phone Number</label>
-                                    <input className="form-control" name="phonenumber"></input>
-                                </Col>
-                            </Row>
                             <label>Message</label>
                             <textarea className="form-control mb-3" row="3" name="message"></textarea>
-                            <button className="btn btn-dark">Send Message</button>
+                            <button type="submit" className="btn btn-dark">Send Message</button>
                             </form>        
                         </Card.Body>
                     </Card>    
