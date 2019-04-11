@@ -23,8 +23,8 @@ const Contact = () => (
                     <Card>
                         <Card.Body>
                             <form
-                                name="contact"
-                                method="post"
+                                name="message"
+                                method="POST"
                                 data-netlify="true"
                                 data-netlify-honeypot="bot-field"
                             >
