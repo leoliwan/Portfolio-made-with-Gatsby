@@ -24,34 +24,38 @@ const Contact = () => (
                     <Col md="8" lg="8" className="mx-auto">
                     <Card>
                         <Card.Body>
-                            <Form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-                                <Row>
-                                    <Col md="6" lg="6">
-                                    <Form.Group>
-                                        <Form.Label htmlFor="name">Name</Form.Label>
-                                        <Form.Control type="text" id="name" />
-                                    </Form.Group>
-                                    </Col>
-                                    <Col md="6" lg="6">
-                                    <Form.Group>
-                                        <Form.Label htmlFor="email">Email</Form.Label>
-                                        <Form.Control type="email" />
-                                    </Form.Group>
-                                    </Col>
-                                </Row>
-                                <Form.Group>
-                                    <Form.Label>Your Message</Form.Label>
-                                    <Form.Control as="textarea" name="textarea" id="textarea" rows="3" />
-                                </Form.Group>
-                                <Form.Group>
-                                    <div data-netlify-recaptcha="true"></div>
-                                </Form.Group>
-                                <Button variant="info" type="submit">Submit</Button>
-                            </Form>
+                            <form
+                                name="contact"
+                                method="post"
+                                data-netlify="true"
+                                data-netlify-honeypot="bot-field"
+                            >
+                            <Row className="mb-3">
+                                <Col md="6" lg="6">
+                                    <label>First Name</label>
+                                    <input className="form-control" name="firstname"></input>
+                                </Col>
+                                <Col md="6" lg="6">
+                                    <label>Last Name</label>
+                                    <input className="form-control" name="lastname"></input>
+                                </Col>
+                            </Row>
+                            <Row className="mb-3">
+                                <Col md="6" lg="6">
+                                    <label>Email</label>
+                                    <input className="form-control" name="email"></input>
+                                </Col>
+                                <Col md="6" lg="6">
+                                    <label>Phone Number</label>
+                                    <input className="form-control" name="phonenumber"></input>
+                                </Col>
+                            </Row>
+                            <label>Message</label>
+                            <textarea className="form-control mb-3" row="3" name="message"></textarea>
+                            <button className="btn btn-dark" type="submit">Send Message</button>
+                            </form>        
                         </Card.Body>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScF8_Vl8_bDNxCeiIYAMHdhERTcgM4F2eNjscg8733NS9nqjQ/viewform?embedded=true" width="640" height="1075" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                    </Card>
-                        
+                    </Card>    
                     </Col>
                 </Row>
             </Container>
