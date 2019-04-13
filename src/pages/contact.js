@@ -17,6 +17,11 @@ const Contact = () => (
                         </Col>
                     </Row>
                 </div>
+             </Container>
+    </Layout>
+) 
+
+export default Contact
 //                 <p className="lead mt-5 text-center">Or you can send me a message below</p>
 //                 <Row>
 //                     <Col md="8" lg="8" className="mx-auto">
@@ -50,8 +55,6 @@ const Contact = () => (
 //                     </Card>    
 //                     </Col>
 //                 </Row>
-            </Container>
-    </Layout>
-) 
 
-export default Contact
+
+
