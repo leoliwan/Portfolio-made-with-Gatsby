@@ -17,39 +17,39 @@ const Contact = () => (
                         </Col>
                     </Row>
                 </div>
-                <p className="lead mt-5 text-center">Or you can send me a message below</p>
-                <Row>
-                    <Col md="8" lg="8" className="mx-auto">
-                    <Card>
-                        <Card.Body>
-                            <form
-                                name="contact"
-                                method="post"
-                                data-netlify="true"
-                                data-netlify-honeypot="bot-field"
-                            >
-                            <Row className="mb-3">
-                                <Col md="6" lg="6">
-                                    <label>First Name</label>
-                                    <input className="form-control" name="firstname"></input>
-                                </Col>
-                                <Col md="6" lg="6">
-                                    <label>Last Name</label>
-                                    <input className="form-control" name="lastname"></input>
-                                </Col>
-                            </Row>
-                            <label>Message</label>
-                            <textarea className="form-control mb-3" row="3" name="message"></textarea>
-                            <p className="d-none">
-                                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-                            </p>
-                             <input type="hidden" name="form-name" value="contact" />  
-                            <button type="submit" className="btn btn-dark">Send Message</button>
-                            </form>        
-                        </Card.Body>
-                    </Card>    
-                    </Col>
-                </Row>
+//                 <p className="lead mt-5 text-center">Or you can send me a message below</p>
+//                 <Row>
+//                     <Col md="8" lg="8" className="mx-auto">
+//                     <Card>
+//                         <Card.Body>
+//                             <form
+//                                 name="contact"
+//                                 method="post"
+//                                 data-netlify="true"
+//                                 data-netlify-honeypot="bot-field"
+//                             >
+//                             <Row className="mb-3">
+//                                 <Col md="6" lg="6">
+//                                     <label>First Name</label>
+//                                     <input className="form-control" name="firstname"></input>
+//                                 </Col>
+//                                 <Col md="6" lg="6">
+//                                     <label>Last Name</label>
+//                                     <input className="form-control" name="lastname"></input>
+//                                 </Col>
+//                             </Row>
+//                             <label>Message</label>
+//                             <textarea className="form-control mb-3" row="3" name="message"></textarea>
+//                             <p className="d-none">
+//                                 <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+//                             </p>
+//                              <input type="hidden" name="form-name" value="contact" />  
+//                             <button type="submit" className="btn btn-dark">Send Message</button>
+//                             </form>        
+//                         </Card.Body>
+//                     </Card>    
+//                     </Col>
+//                 </Row>
             </Container>
     </Layout>
 ) 
