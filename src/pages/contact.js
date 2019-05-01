@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { Container, Col, Row, Card } from 'react-bootstrap'
+import { Container, Col, Row } from 'react-bootstrap'
 
 const Contact = () => (
     <Layout>
@@ -20,55 +20,7 @@ const Contact = () => (
                         </Col>
                     </Row>
                 </div>
-<<<<<<< HEAD
-                <p className="lead mt-5 text-center">Or you can send me a message below</p>
-                <Row>
-                    <Col md="8" lg="8" className="mx-auto">
-                    <Card>
-                        <Card.Body>
-                            <form
-                                name="contact" 
-                                method="post" 
-                                data-netlify="true" 
-                                data-netlify-honeypot="bot-field"
-                            >
-                            
-                            <p className="d-none">
-                                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-                            </p>
-                            <input type="hidden" name="form-name" value="contact" />                     
-                            <Row className="mb-3">
-                                <Col md="6" lg="6">
-                                    <label>First Name</label>
-                                    <input className="form-control" name="firstname"></input>
-                                </Col>
-                                <Col md="6" lg="6">
-                                    <label>Last Name</label>
-                                    <input className="form-control" name="lastname"></input>
-                                </Col>
-                            </Row>
-                            <Row className="mb-3">
-                                <Col md="6" lg="6">
-                                    <label>Email</label>
-                                    <input className="form-control" name="email"></input>
-                                </Col>
-                                <Col md="6" lg="6">
-                                    <label>Phone Number</label>
-                                    <input className="form-control" name="phonenumber"></input>
-                                </Col>
-                            </Row>
-                            <label>Message</label>
-                            <textarea className="form-control mb-3" row="3" name="message"></textarea>
-                            <button className="btn btn-dark">Send Message</button>
-                            </form>        
-                        </Card.Body>
-                    </Card>    
-                    </Col>
-                </Row>
-            </Container>
-=======
              </Container>
->>>>>>> ef0a82a283b394b2528e148025e8c2d8b763be4c
     </Layout>
 ) 
 
