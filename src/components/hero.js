@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from 'gatsby'
 import { Container, Row, Col } from 'react-bootstrap'
 import  profile  from '../images/profile.jpg'
-import bubble from '../images/bubble-text.png'
+import BubbleText from './bubbleText'
 
 const Hero = () => (
    <div className="home-section">
@@ -44,9 +44,7 @@ const Hero = () => (
                     </Row>
                 </Container>
             </div>
-            <div className="bubble-message">
-                <img src={bubble} className="img-fluid" alt="bubble" />
-            </div>
+            <BubbleText />
         </div>
    </div>
 )

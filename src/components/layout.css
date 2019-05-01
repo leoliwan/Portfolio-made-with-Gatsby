@@ -183,8 +183,8 @@ body {
 
 /* Bubble Text */
 .bubble-message {
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  bottom: 90px;
   right: 40px;
   width: 150px;
 }

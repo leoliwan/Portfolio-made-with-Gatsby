@@ -7,6 +7,7 @@ import ecom from '../images/ecom.png'
 import ebook from '../images/ebook.png'
 import wordpress from '../images/wordpress.png'
 import { FaCheck, FaAngleDown } from 'react-icons/fa'
+import BubbleText from '../components/bubbleText'
 
 class Services extends Component {
   state = {
@@ -96,6 +97,7 @@ class Services extends Component {
               </Col>
             </Row>
           </Container>
+          <BubbleText />
     </Layout>
     )
   }

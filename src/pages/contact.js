@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import BubbleText from '../components/bubbleText'
 import { Container, Col, Row } from 'react-bootstrap'
 
 const Contact = () => (
@@ -21,6 +21,7 @@ const Contact = () => (
                     </Row>
                 </div>
              </Container>
+             <BubbleText />
     </Layout>
 ) 
 
