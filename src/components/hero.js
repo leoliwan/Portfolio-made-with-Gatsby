@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from 'gatsby'
 import { Container, Row, Col } from 'react-bootstrap'
 import  profile  from '../images/profile.jpg'
+import bubble from '../images/bubble-text.png'
 
 const Hero = () => (
    <div className="home-section">
@@ -36,12 +37,15 @@ const Hero = () => (
                             <p>Hi, my name is Leo. I am a web developer who loves writing clean, reponsive and elegant codes. I specialize in Bootstrap Framework, Javascript, REACT JS, Gatsby, PHP-Laravel Framework and Wordpress.
                             Levi-Web Solution is my personal website where I showcase my works and services.</p>
                             <div className="hire_me">
-                                <Link to="/workprojects" className="btn btn-danger px-3 py-2 my-3 mr-2">My Works and Projects</Link>
+                                <a href="https://www.facebook.com/Levi-Web-Design-And-Development-363924167438736/" className="btn btn-danger px-3 py-2 my-3 mr-2">Message Me For A Quote</a>
                                 <Link to="/contact" className="btn btn-danger px-4 py-2 my-3 bg-transparent">HIRE ME</Link>
                             </div>
                         </Col>
                     </Row>
                 </Container>
+            </div>
+            <div className="bubble-message">
+                <img src={bubble} className="img-fluid" alt="bubble" />
             </div>
         </div>
    </div>
