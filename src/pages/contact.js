@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
 import { Container, Col, Row, Card } from 'react-bootstrap'
 
 const Contact = () => (
@@ -25,17 +26,16 @@ const Contact = () => (
                     <Card>
                         <Card.Body>
                             <form
-                                name="contact"
-                                method="post"
-                                data-netlify="true"
+                                name="contact" 
+                                method="post" 
+                                data-netlify="true" 
                                 data-netlify-honeypot="bot-field"
                             >
                             
-                            <p className="hidden">
+                            <p className="d-none">
                                 <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                             </p>
-                            <input type="hidden" name="form-contact" value="contact"></input>
-
+                            <input type="hidden" name="form-name" value="contact" />                     
                             <Row className="mb-3">
                                 <Col md="6" lg="6">
                                     <label>First Name</label>
@@ -61,8 +61,7 @@ const Contact = () => (
                             <button className="btn btn-dark">Send Message</button>
                             </form>        
                         </Card.Body>
-                    </Card>
-                        
+                    </Card>    
                     </Col>
                 </Row>
             </Container>
