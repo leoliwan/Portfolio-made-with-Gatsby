@@ -5,7 +5,7 @@ import React from "react"
 import { Navbar, Nav, Container } from 'react-bootstrap'
 
 const Header = ({ siteTitle }) => (
- 
+
 <Navbar collapseOnSelect expand="lg" variant="dark" className="top-navbar">
   <Container>
     <Link to="/"><Navbar.Brand className="logo"> {siteTitle}<span className="solution"> Solution</span></Navbar.Brand></Link> 
@@ -15,6 +15,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/services" className="link nav-link">Web Services</Link>
         <Link to="/workprojects" className="link nav-link">Works and Projects</Link>
         <Link to="/contact" className="link nav-link">Contact</Link>
+        
       </Nav>
     </Navbar.Collapse>
   </Container>
