@@ -34,8 +34,8 @@ class Services extends Component {
       <Layout>
         <SEO title="Services" />
           <Container className="py-5 text-center">
-            <h2>My Services</h2>
-            <p className="mb-5">I specialize in building modern web applications for online business such as e-commerce, startup project prototyping, affiliate websites, wordpress development and many more.</p>
+            <h2>Our Services</h2>
+            <p className="mb-5">We specialize in building modern web applications for online business such as e-commerce, startup project prototyping, affiliate websites, wordpress development and many more.</p>
             <Row>
               <Col md="4" lg="4">
                 <img src={ecom} className="img-fluid" alt="ecom" />

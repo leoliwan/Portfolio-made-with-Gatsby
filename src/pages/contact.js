@@ -9,8 +9,8 @@ const Contact = () => (
         <SEO title="Contact" />
             <Container className="py-5 contact-me">
                 <div className="text-center">
-                    <h2>Contact Me</h2>
-                    <p className="lead">If you’re looking to get in contact with me for business inquiries or if you have a question, feel free to reach me via the following:</p>
+                    <h2>Contact Us</h2>
+                    <p className="lead">If you’re looking to get in contact with us for business inquiries or if you have a question, feel free to reach me via the following:</p>
                     <Row>
                         <Col md="6" lg="6">
                             <a href="https://www.facebook.com/Levi-Web-Design-And-Development-363924167438736/" className="btn fb">Official Facebook Page</a>
@@ -19,6 +19,7 @@ const Contact = () => (
                             <a href="www.google.com" className="btn gmail">Email: leoyukdawan@gmail.com</a>
                         </Col>
                     </Row>
+                    <p className="lead mt-5">Or you can talk directly with us in the chat box below.</p>
                 </div>
              </Container>
              <BubbleText />
