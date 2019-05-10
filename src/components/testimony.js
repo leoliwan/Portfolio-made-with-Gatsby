@@ -11,7 +11,7 @@ const Testimonials = () => (
         <Container className="py-5 text-center">
             <h2 className="mb-5 text-white">What our clients say about us?</h2>
             <Row>
-                <Col sm="12" md="6" lg="4">     
+                <Col sm="12" md="6" lg="4" className="mb-3">     
                     <Card body>
                         <div className="text-center mb-4">
                             <img src={efonfire} alt="testi" className="img-fluid" />
@@ -21,7 +21,7 @@ const Testimonials = () => (
                         <small class="text-muted">By Noe: ESL Teacher and Owner of Efonfire.com</small>  
                     </Card>
                 </Col>
-                <Col sm="12" md="6" lg="4">
+                <Col sm="12" md="6" lg="4" className="mb-3">
                     <Card body>
                         <div className="text-center mb-4">
                             <img src={premiva} alt="testi" className="img-fluid" />
