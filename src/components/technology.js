@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import Layout from "../components/layout"
 import reactlogo from '../images/logo.svg'
 import styled from 'styled-components'
 import gatsbylogo from '../images/gatsby-icon.png'
@@ -8,7 +7,7 @@ import netlify from '../images/netlify.png'
 import contentful from '../images/contentful.png'
 
 const Technology = () =>(
-    <Layout>
+    <React.Fragment>
         <Container className="py-5">
             <h4 className="text-center display-4 mb-5">Our Technologies</h4>
             <Row>
@@ -57,7 +56,8 @@ const Technology = () =>(
                 </Col>
             </Row>
         </Container>
-    </Layout>
+        <small><em>Logos credited to React JS, Gatsby, Contenful and Netlify</em></small>
+    </React.Fragment>
 )
 
 export default Technology

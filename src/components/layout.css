@@ -3,6 +3,7 @@
 
 body {
   font-family: 'Montserrat'!important;
+  /* color: rgba(250, 26, 71, 0.411); */
 }
 
 .top-navbar {
@@ -187,6 +188,7 @@ body {
   bottom: 90px;
   right: 40px;
   width: 150px;
+  z-index: 2;
 }
 
 .App-logo {
@@ -203,3 +205,13 @@ body {
     transform: rotate(360deg);
   }
 }
+.copyright-text {
+  font-weight: 100;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+
+
+
+
