@@ -21,7 +21,7 @@ const OnlineServices = () => (
             <Row>
                 <Col md="6" lg="6" className="py-5">
                     <h3>Get your products to the web</h3>
-                    <p className="lead">Let us help you build and and deploy elegant, responsive and modern online store that is affordable and blazing-fast</p>
+                    <p className="lead">Let us help you build and deploy elegant, responsive and modern online store that is affordable and blazing-fast</p>
                     <a href="https://www.facebook.com/Levi-Web-Design-And-Development-363924167438736/" className="btn btn-outline-info">Request for a Quote</a>
                 </Col>
                 <Col md="6" lg="6">
