@@ -10,6 +10,7 @@ import barbershop from '../images/gruppo_mockup.png'
 import onlineebook from '../images/avila.com.png'
 import hotbestbuy from '../images/hotbestbuy.png'
 import pasinaya from '../images/pasinaya.png'
+import pandacare from '../images/pandacare.png'
 import premiva from '../images/premiva homepage.png' 
 import BubbleText from '../components/bubbleText';
 
@@ -76,6 +77,20 @@ const WorkProject = () => (
                                         <Badge variant="secondary">HTML/CSS</Badge>
                                     </div>
                                     <Card.Link className="btn btn-info" href="https://leoliwan.github.io/ebook-simple-optin/">View Sample</Card.Link>
+                                </Card.Body>
+                            </Card> 
+                        </Col>
+                        <Col sm="6" md="4" lg="3" className="mb-3">
+                           <Card style={{height: '22rem'}}>
+                                <Card.Img variant="top" src={pandacare} />
+                                <Card.Body>
+                                    <Card.Title>Drop Shipping Website</Card.Title>
+                                    <div className="badges">
+                                        <Badge variant="warning">WordPress + WooCommerce</Badge>
+                                        <Badge variant="secondary">Elementor Page Builder</Badge>
+                                        <Badge variant="success">Ocean WP</Badge>
+                                    </div>
+                                    <Card.Link className="btn btn-info" href="https://pandacare.store/">View Sample</Card.Link>
                                 </Card.Body>
                             </Card> 
                         </Col>
