@@ -90,7 +90,7 @@ const WorkProject = () => (
                                         <Badge variant="secondary">Elementor Page Builder</Badge>
                                         <Badge variant="success">Ocean WP</Badge>
                                     </div>
-                                    <Card.Link className="btn btn-info" href="#">View Sample</Card.Link>
+                                    <Card.Link className="btn btn-info" href="https://pandacare.store/">View Sample</Card.Link>
                                 </Card.Body>
                             </Card> 
                         </Col>
