@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { Container, Row, Col, Card, Badge } from 'react-bootstrap'
 import jamvacc from '../images/jamvacc.png'
-import eyabooks from '../images/eyabooks.png'
+import Wixwix from '../images/Wixwix.jpg'
 import splitscreen from '../images/split-screen.png'
 import ebookoptin from '../images/ebook-optin.png'
 import barbershop from '../images/gruppo_mockup.png'
@@ -39,16 +39,16 @@ const WorkProject = () => (
                         </Col>
                         <Col sm="6" md="4" lg="3" className="mb-3">
                            <Card style={{height: '22rem'}}>
-                                <Card.Img variant="top" src={eyabooks} />
+                                <Card.Img variant="top" src={Wixwix} />
                                 <Card.Body>
-                                    <Card.Title>Website for selling ebook</Card.Title>
+                                    <Card.Title>Ecommerce Website</Card.Title>
                                     <div className="badges">
                                         <Badge variant="success">React JS</Badge>
                                         <Badge variant="danger">Gatsby</Badge>
                                         <Badge variant="secondary">Bootstrap4</Badge>
                                         <Badge variant="secondary">HTML/CSS</Badge>
                                     </div>
-                                    <Card.Link className="btn btn-info" href="https://eya-ecommerce.com/">View Live</Card.Link>
+                                    <Card.Link className="btn btn-info" href="https://www.stoklots.com/">View Live</Card.Link>
                                 </Card.Body>
                             </Card> 
                         </Col>
