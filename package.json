@@ -15,7 +15,7 @@
     "gatsby-plugin-sharp": "^2.0.32",
     "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-plugin-tawk": "^1.0.0",
-    "gatsby-source-filesystem": "^2.0.28",
+    "gatsby-source-filesystem": "^2.4.1",
     "gatsby-transformer-sharp": "^2.1.17",
     "install": "^0.12.2",
     "npm": "^6.9.0",
